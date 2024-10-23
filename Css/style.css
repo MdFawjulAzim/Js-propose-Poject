@@ -1,0 +1,95 @@
+body {
+    background: url('../Image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 50vh; /* Adjusted height */
+}
+
+/* main-div styling with background and shadow */
+.main-div {
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    color: #fff;
+    max-width: 600px;
+}
+
+/* highlighted text styling */
+.highlighted-text {
+    color: #f39c12; /* Golden color */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+}
+
+h3, h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    text-align: center;  
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+/* message styling */
+#message {
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    color: #f9f9f9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.8;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+.buttons input {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-block;
+    background-color: #2ea44f;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.buttons input:hover {
+    background-color: #2c974b;
+}
+
+.buttons input:active {
+    background-color: #1f6d9a;
+    box-shadow: 0 1px 0 rgba(20, 70, 32, .2) inset;
+}
+
+/* Yes button specific styles */
+#yes {
+    background-color: #2ea44f;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+}
+
+/* No button specific styles */
+#no {
+    background-color: #E62C03;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+}
